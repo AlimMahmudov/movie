@@ -1,0 +1,157 @@
+.Footer {
+  background: #000000cc;
+  background-image: url("https://wpapers.ru/wallpapers/Space/15315/PREV_%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81.jpg");
+  background-size: cover;
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 70px;
+
+    .discription {
+      text-align: center;
+      width: 900px;
+
+      p {
+        color: #ffffff;
+        font-size: 20px;
+        text-shadow: 0 0 10px #700000, 0 0 20px #c70000, 0 0 30px #c70000;
+      }
+    }
+
+    .homebtn {
+      display: flex;
+      gap: 10px;
+      button {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #00000000;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 35px;
+        transition: 0.3s;
+        border: none;
+      }
+      button:hover {
+        background: rgb(216, 34, 34);
+        transition: 0.3s;
+        box-shadow: 0 0 10px #df2c2c, 0 0 20px #df2c2c;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .Footer {
+    .content {
+      gap: 20px;
+      padding: 70px;
+
+      .discription {
+        width: 700px;
+
+        p {
+          font-size: 20px;
+        }
+      }
+
+      .homebtn {
+        gap: 10px;
+        button {
+          width: 50px;
+          height: 50px;
+
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .Footer {
+    .content {
+      gap: 20px;
+      padding: 70px;
+
+      .discription {
+        width: 100%;
+
+        p {
+          font-size: 18px;
+        }
+      }
+
+      .homebtn {
+        gap: 10px;
+        button {
+          width: 40px;
+          height: 40px;
+
+          font-size: 30px;
+          box-shadow: 0 0 10px #000000, 0 0 20px #000000;
+          background: #0000009a;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Footer {
+    .content {
+      gap: 20px;
+      padding: 70px;
+
+      .discription {
+        width: 100%;
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .homebtn {
+        gap: 10px;
+        button {
+          width: 40px;
+          height: 40px;
+
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .Footer {
+    .content {
+      gap: 20px;
+      padding: 20px;
+
+      .discription {
+        width: 100%;
+
+        p {
+          font-size: 12px;
+        }
+      }
+
+      .homebtn {
+        gap: 10px;
+        button {
+          width: 30px;
+          height: 30px;
+
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
